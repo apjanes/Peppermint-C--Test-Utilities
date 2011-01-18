@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peppermint.Testing", "src\Peppermint.Testing\Peppermint.Testing.csproj", "{DBE21CCA-E473-4F27-B18D-21EF46AC9855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peppermint.Testing.Tests.Unit", "tests\Peppermint.Testing.Tests.Unit\Peppermint.Testing.Tests.Unit.csproj", "{65971D7E-382D-4899-92AA-DD248E37C5A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE21CCA-E473-4F27-B18D-21EF46AC9855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE21CCA-E473-4F27-B18D-21EF46AC9855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE21CCA-E473-4F27-B18D-21EF46AC9855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE21CCA-E473-4F27-B18D-21EF46AC9855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65971D7E-382D-4899-92AA-DD248E37C5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65971D7E-382D-4899-92AA-DD248E37C5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65971D7E-382D-4899-92AA-DD248E37C5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65971D7E-382D-4899-92AA-DD248E37C5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
