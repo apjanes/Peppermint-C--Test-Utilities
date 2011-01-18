@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peppermint.Testing", "src\P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peppermint.Testing.Tests.Unit", "tests\Peppermint.Testing.Tests.Unit\Peppermint.Testing.Tests.Unit.csproj", "{65971D7E-382D-4899-92AA-DD248E37C5A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{22FAEB5E-A28F-426B-9123-466CB598F432}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0E22EC43-1EC4-479F-B7EB-06484F11890C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBE21CCA-E473-4F27-B18D-21EF46AC9855} = {22FAEB5E-A28F-426B-9123-466CB598F432}
+		{65971D7E-382D-4899-92AA-DD248E37C5A7} = {0E22EC43-1EC4-479F-B7EB-06484F11890C}
 	EndGlobalSection
 EndGlobal
